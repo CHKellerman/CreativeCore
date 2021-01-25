@@ -1,0 +1,30 @@
+prefix: "&cCreativeCore &8&l» &e"
+tpacooldown: 10
+marrycooldown: 10
+debug: false
+spawn:
+  world: world
+  posX: 0
+  posY: 0
+  posZ: 0
+  pitch: 90
+  yaw: 0
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: "database"
+  username: "username"
+  password: "password"
+  # ReactionTime is in min.
+ReactionTime: 15
+ReactionWords:
+  - Creative4Life
+  - Creative
+  - imAwesome
+  - NotTodayMom
+SpawnBook:
+  Title: "&c&lCreative"
+  Author: "&cCentrixPvP"
+  pages:
+    - "Hello &a {Player} &fim here"
+    - "&cim not {enter} though"

@@ -1,0 +1,79 @@
+name: CreativeCore
+version: 1.7
+main: com.thewickettk.creativecore.Main
+author: TheWicketTk
+api-version: 1.13
+commands:
+  fly:
+    description: /fly [player] - (To activate your or a other players fly)
+    aliases: [flight]
+  gamemode:
+    description: /gamemode (gamemode) [player] - (To change your or a other player to the desired gamemode)
+    aliases: [gm]
+  feed:
+    description: /feed [player] - (To feed yourself or a other player)
+  heal:
+    description: /heal [player] - (To heal yourself or a other player)
+  teleport:
+    description: /teleport (player) [player] - (To teleport to a players location)
+    aliases: [tpo, tp, goto]
+  tphere:
+    description: /tphere (player) -  (To teleport a player to your location)
+    aliases: [tpohere, summon, s, bring]
+  tpa:
+    description: /tpa (player) - (To send a player a teleport request)
+    aliases: [tpask, asktp, teleportask]
+  tpaccept:
+    description: /tpaccept - (To Accept a players teleport request)
+    aliases: [tpyes, accepttp]
+  tpdeny:
+    description: /tpdeny - (To deny a players teleport request)
+    aliases: [tpno,  denytp]
+  setspawn:
+    description: /setspawn - (To set the spawn location of the server)
+  spawn:
+    description: /spawn [player] - (Send yourself or other players to spawn.)
+  votepoints:
+    description: /votepoints [player] - (To main votepoint command, get votepoints through voting)
+    aliases: [points,  vp, point, bal, balance]
+  clearinv:
+    description: /clearinv [player] - (To clear your or a other players invenotry)
+    aliases: [ci,  clearinventroy]
+  enderchest:
+    description: /enderchest [player] - (To open a players enderchest and be able to access items)
+    aliases: [ec, echest]
+  invsee:
+    description: /invsee [player] - (To open up a other players inventory and be able to access items)
+    aliases: [inventorysee]
+  message:
+    description: /message (player) {message} - (To message a player privately)
+    aliases: [messages, msg, pm, dm, directmsg, directmessage, directmessages, privatemsg, privatemesages, privatemesage]
+  socialspy:
+    description: /socialspy - (To beable to se what player are messaging each other privately)
+  marry:
+    description: /marry (player) - (To send a player a marry request)
+  marryyes:
+    description: /marryyes - (To accept players marriage requests)
+  marryno:
+    description: /marryno - (To deny players marriage requests)
+  marryinfo:
+    description: /marryinfo [player] - (See a players marriage info)
+  gms:
+    description: /gms [player] - (To set your or a others players gamemode to Survival Mode)
+  gmc:
+    description: /gmc [player] - (To set your or a others players gamemode to Creative Mode)
+  gma:
+    description: /gma [player] - (To set your or a others players gamemode to Adventrue Mode)
+  gmspec:
+    description: /gmspec [player] - (To set your or a other players gamemode to Spectator Mode)
+  divorce:
+    description: /divore - (To divorce a player you have married)
+    aliases: [unmarry, marrydivorce]
+  help:
+    description: /help - (Opens the help book)
+    aliases: [book]
+  reaction:
+    description: /reaction - (Starts the Scrambled words)
+  reply:
+    description: /reply (message) - (Reply to a message)
+    aliases: [r]
